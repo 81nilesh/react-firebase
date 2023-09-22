@@ -11,7 +11,7 @@ function App() {
         <h3>Firebase firestore  react</h3>
       </header>
       <main>
-        {/* <ListMovies /> */}
+        <ListMovies />
         <RealtimeMovies />
         <AddMovie />
         <EditMovie />
