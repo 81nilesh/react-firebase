@@ -2,6 +2,7 @@
 import AddMovie from './components/AddMovie';
 import EditMovie from './components/EditMovie';
 import ListMovies from './components/ListMovies';
+import RealtimeMovies from './components/RealtimeMovies';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <h3>Firebase firestore  react</h3>
       </header>
       <main>
-        <ListMovies />
+        {/* <ListMovies /> */}
+        <RealtimeMovies />
         <AddMovie />
         <EditMovie />
       </main>
